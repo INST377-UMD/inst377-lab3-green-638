@@ -1,0 +1,83 @@
+body {
+    background-color: #d6dbff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#bar {
+    text-align: center;
+    background-color: #c0c6f0;
+    color: white;
+    clear: both;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+#navigation {
+    text-align: center;
+}
+
+#navigation li {
+    display: inline-block;
+    padding: 10px;
+}
+
+#navigation a:link {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+#navigation a:visited {
+    color: #4d4d4d;
+    text-decoration: none;
+}
+
+#navigation a:hover {
+    color: #262b35;
+    font-weight: bold;
+}
+
+.main_content {
+    float: left;
+    width: 30%;
+    height: 50%;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    background-color: #e8eafa;
+}
+
+#form_title {
+    font-size: 28px;
+}
+
+.main_content label {
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.main_content input:focus {
+    width: 300px;
+}
+
+#rules {
+    text-align: center;
+    float: right;
+    width: 20%;
+    margin-right: 20px;
+    border: 2px solid;
+    background-color: #ffffff;
+}
+
+#rules li {
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+#rules h1 {
+    margin-bottom: -5px;
+}
+
+#rules:hover {
+    background-color: #daffff;
+}
