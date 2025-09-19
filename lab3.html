@@ -1,0 +1,52 @@
+<html>
+  <head>
+    <title>Lab 3</title>
+    <link rel="stylesheet" href="lab3.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header id="bar">
+      <h1>Rock Paper Scissors</h1>
+    </header>
+    <!-- Nav -->
+    <nav id="navigation">
+      <ul>
+        <li><a href="https://umd.edu/">umd.edu</a></li>
+        <li><a href="https://testudo.umd.edu/">testudo</a></li>
+        <li><a href="https://planetterp.com/">planetterp</a></li>
+      </ul>
+    </nav>
+
+    <div class="main_content">
+      <!-- Form -->
+      <label for="game" id="form_title">Play</label>
+      <form name="game" method="get" action="form_submission.html">
+        <label for="name" id="f">Name: </label>
+        <input type="text" name="name" required />
+        <br />
+        <label for="move">Your move: </label>
+        <select name="move">
+          <option value=""></option>
+          <option value="rock">Rock</option>
+          <option value="paper">Paper</option>
+          <option value="scissors">Scissors</option>
+        </select>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- Rules sidebar -->
+    <aside id="rules">
+      <h1>Rules</h1>
+      <p>Select rock, paper, or scissors</p>
+      <ul>
+        <li>Rock beats scissors</li>
+        <li>Paper beats rock</li>
+        <li>Scissors beat paper</li>
+      </ul>
+    </aside>
+    <footer id="bar">
+      <p>Lab by Connor Hall</p>
+    </footer>
+  </body>
+</html>
